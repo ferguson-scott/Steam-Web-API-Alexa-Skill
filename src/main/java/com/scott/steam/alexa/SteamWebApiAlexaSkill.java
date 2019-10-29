@@ -1,12 +1,12 @@
-package com.main;
+package com.scott.steam.alexa;
 
 import com.amazon.ask.Skill;
 import com.amazon.ask.SkillStreamHandler;
 import com.amazon.ask.Skills;
-import com.example.handlers.LastGameIntentHandler;
-import com.example.handlers.NeverPlayedIntentHandler;
-import com.example.handlers.PlayedIntentHandler;
-import com.example.handlers.PlaytimeByGameIntentHandler;
+import com.scott.steam.alexa.intenthandler.LastGameIntentHandler;
+import com.scott.steam.alexa.intenthandler.NeverPlayedIntentHandler;
+import com.scott.steam.alexa.intenthandler.PlayedIntentHandler;
+import com.scott.steam.alexa.intenthandler.PlaytimeByGameIntentHandler;
 
 public class SteamWebApiAlexaSkill extends SkillStreamHandler {
 

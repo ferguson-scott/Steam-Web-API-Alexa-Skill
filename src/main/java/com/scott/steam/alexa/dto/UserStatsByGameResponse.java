@@ -1,4 +1,4 @@
-package com.example.dto;
+package com.scott.steam.alexa.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

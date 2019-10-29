@@ -1,4 +1,4 @@
-package com.example.handlers;
+package com.scott.steam.alexa.intenthandler;
 
 import static com.amazon.ask.request.Predicates.intentName;
 
@@ -14,8 +14,8 @@ import org.springframework.web.client.RestTemplate;
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
 import com.amazon.ask.model.Response;
-import com.example.dto.App;
-import com.example.dto.UserStatsByGameResponseParent;
+import com.scott.steam.alexa.dto.App;
+import com.scott.steam.alexa.dto.UserStatsByGameResponseParent;
 
 public class NeverPlayedIntentHandler implements RequestHandler {
 

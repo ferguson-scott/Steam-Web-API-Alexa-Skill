@@ -1,4 +1,4 @@
-package com.example.handlers;
+package com.scott.steam.alexa.intenthandler;
 
 import static com.amazon.ask.request.Predicates.intentName;
 
@@ -17,8 +17,8 @@ import com.amazon.ask.dispatcher.request.handler.RequestHandler;
 import com.amazon.ask.model.IntentRequest;
 import com.amazon.ask.model.Response;
 import com.amazon.ask.model.Slot;
-import com.example.dto.App;
-import com.example.dto.UserStatsByGameResponseParent;
+import com.scott.steam.alexa.dto.App;
+import com.scott.steam.alexa.dto.UserStatsByGameResponseParent;
 
 public class PlaytimeByGameIntentHandler implements RequestHandler {
 

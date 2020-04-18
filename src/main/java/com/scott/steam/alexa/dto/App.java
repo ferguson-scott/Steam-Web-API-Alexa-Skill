@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 @lombok.Getter
 @lombok.Setter
-public class App {
+public class App implements SteamApiResponse {
 	private String appid;
 	private String name;
 	@JsonProperty("playtime_2weeks")

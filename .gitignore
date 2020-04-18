@@ -6,3 +6,8 @@
 .classpath
 application.properties
 .settings
+/.apt_generated/
+/.apt_generated_tests/
+
+.factorypath
+*.properties
